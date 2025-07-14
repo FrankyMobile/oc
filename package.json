@@ -92,7 +92,7 @@
     "wrangler": "4.21.x"
   },
   "scripts": {
-    "build": "npm i && tsc -b && vite build",
+    "build": "tsc -b && vite build",
     "cf-typegen": "wrangler types",
     "check": "tsc && vite build && wrangler deploy --dry-run",
     "deploy": "wrangler deploy",
